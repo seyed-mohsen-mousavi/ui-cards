@@ -4,10 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profile | s.mohsen</title>
     <link rel="stylesheet" href="../public/build/tailwind.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <style>
         .gradient {
             background: rgb(74, 222, 191);
@@ -28,7 +26,7 @@
 </head>
 
 <body
-    class="h-screen [background-image:url(https://img.freepik.com/free-vector/abstract-texture-background-with-rose-gold-colours_1048-8234.jpg?t=st=1712898576~exp=1712902176~hmac=9995d28492d3d1c7ff56d46563e037413c4815e66e7e485f3e15a6315a3966bb&w=740)] bg-contain backdrop-blur-sm bg-center">
+    class="h-screen [background-image:url(../../src/images/background.svg)] bg-gray-300 bg-contain backdrop-blur-sm bg-center">
     <div class="container flex justify-center items-center w-full h-full ">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
             <!-- اگر میخوای تنها از کارد ها استفاده کنید به این دیو اول یک طول باید بدهید -->
@@ -37,16 +35,19 @@
             <!-- English temp -->
             <div class="en">
                 <!-- flag -->
-                <img title="language/زبان" class="flag-img pb-5 w-14 h-14 mx-auto" src="../src/images/lang/gb.svg" alt="en_lang">
+                <img title="language/زبان" class="flag-img pb-5 w-14 h-14 mx-auto"
+                    src="../src/images/lang/gb.svg" alt="en_lang">
                 <!-- card -->
-                <div class="relative  rounded-xl overflow-hidden flex flex-col items-center shadow-lg bg-white font-Roboto-light ">
+                <div
+                    class="relative  rounded-xl overflow-hidden flex flex-col items-center shadow-lg bg-white font-Roboto-light ">
                     <!-- backrgound img / عکس بکگراند  -->
-                    <img class="object-cover h-28 w-full" src="../src/images/bg-profile.jpg" alt="background_profile">
+                    <img class="object-cover h-28 w-full bg-gray-200" src="../src/images/profile-card/bg_prof.jpg"
+                        alt="background_profile">
                     <div class="top-16  z-10 flex items-center flex-col gap-4 px-5 py-5">
                         <!-- profile img / عکس پروفایل -->
                         <div class="-mt-16">
-                            <img src="https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg?t=st=1712842829~exp=1712846429~hmac=32d7d7276395f34625f9e5b21ef04f77803fc2cf97fbb0f3db240c337ae3c9a7&w=900"
-                                class="object-cover w-20 h-20 rounded-full" alt="prof_image">
+                            <img src="../src/images/profile-card/prof.avif"
+                                class="object-cover w-20 h-20 rounded-full bg-gray-200" alt="prof_image">
                         </div>
                         <!-- name & bio / نام و بیوگرافی -->
                         <div class="flex items-center flex-col">
@@ -59,14 +60,14 @@
                         <div class="flex items-center gap-3">
                             <button
                                 class="bg-green-400 transition-all gradient text-[15px] text-white px-3 py-[6px] rounded-full flex items-center gap-1 ">Followed
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                    stroke="currentColor" class="w-4 h-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                 </svg>
                             </button>
                             <button class="bg-gray-200/65 hover:bg-gray-200 transition-colors p-2 rounded-full ">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                    stroke="currentColor" class="w-5 h-5">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z" />
                                 </svg>
@@ -79,16 +80,19 @@
             <!-- Persian temp-->
             <div class="fa">
                 <!-- falg -->
-                <img title="language/زبان" class="flag-img pb-5 w-14 h-14 mx-auto" src="../src/images/lang/ir.svg" alt="en_lang">
+                <img title="language/زبان" class="flag-imgpb-5 w-14 h-14 mx-auto"
+                    src="../src/images/lang/ir.svg" alt="en_lang">
                 <!-- card -->
-                <div dir="rtl" class="relative rounded-xl overflow-hidden flex flex-col items-center shadow-lg bg-white font-Peyda ">
+                <div dir="rtl"
+                    class="relative rounded-xl overflow-hidden flex flex-col items-center shadow-lg bg-white font-Peyda ">
                     <!-- backrgound img / عکس بکگراند  -->
-                    <img class="object-cover h-28 w-full" src="../src/images/bg-profile.jpg" alt="background_profile">
+                    <img class="object-cover h-28 w-full bg-gray-200" src="../src/images/profile-card/bg_prof.jpg"
+                        alt="background_profile">
                     <div class="top-16  z-10 flex items-center flex-col gap-4 px-5 py-5">
                         <!-- profile img / عکس پروفایل -->
                         <div class="-mt-16">
-                            <img src="https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg?t=st=1712842829~exp=1712846429~hmac=32d7d7276395f34625f9e5b21ef04f77803fc2cf97fbb0f3db240c337ae3c9a7&w=900"
-                                class="object-cover w-20 h-20 rounded-full" alt="prof_image">
+                            <img src="../src/images/profile-card/prof.avif"
+                                class="object-cover w-20 h-20 rounded-full bg-gray-200" alt="prof_image">
                         </div>
                         <!-- name & bio / نام و بیوگرافی -->
                         <div class="flex items-center flex-col">
@@ -100,14 +104,14 @@
                             <button
                                 class="bg-green-400 transition-all gradient text-[15px] text-white px-3 py-[6px] rounded-full flex items-center gap-1 ">دنبال
                                 شده
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                    stroke="currentColor" class="w-4 h-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                 </svg>
                             </button>
                             <button class="bg-gray-200/65 hover:bg-gray-200 transition-colors p-2 rounded-full ">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                    stroke="currentColor" class="w-5 h-5">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z" />
                                 </svg>

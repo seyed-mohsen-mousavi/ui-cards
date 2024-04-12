@@ -692,6 +692,22 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
 .bg-cover {
   background-size: cover;
 }
@@ -794,6 +810,36 @@ video {
 .\[background-image\:url\(\)\] {
   background-image: url();
 }
+.\[background-image\:url\(\.\.\.\.\/\/src\/images\/background\.svg\)\] {
+  background-image: url(....//src/images/background.svg);
+}
+.\[background-image\:url\(\.\.\/\)\] {
+  background-image: url(../);
+}
+.\[background-image\:url\(\.\.\/\.\.\/\/src\/images\/background\.svg\)\] {
+  background-image: url(../..//src/images/background.svg);
+}
+.\[background-image\:url\(\.\.\/\.\.\/src\/images\/background\.svg\)\] {
+  background-image: url(../../src/images/background.svg);
+}
+.\[background-image\:url\(\.\.\/src\/\)\] {
+  background-image: url(../src/);
+}
+.\[background-image\:url\(\.\.\/src\/image\)\] {
+  background-image: url(../src/image);
+}
+.\[background-image\:url\(\.\.\/src\/image\/2533747_8234\)\] {
+  background-image: url(../src/image/2533747_8234);
+}
+.\[background-image\:url\(\.\.\/src\/image\/2533747_8234\.eps\)\] {
+  background-image: url(../src/image/2533747_8234.eps);
+}
+.\[background-image\:url\(\.\.\/src\/images\/2533747_8234\.eps\)\] {
+  background-image: url(../src/images/2533747_8234.eps);
+}
+.\[background-image\:url\(\.\.\/src\/images\/background\.svg\)\] {
+  background-image: url(../src/images/background.svg);
+}
 .\[background-image\:url\(h19286\.jpg\?t\=st\=1712898316\~exp\=17129628dc08a057b956eb7bb1fc9a904\&w\=740\)\] {
   background-image: url(h19286.jpg?t=st=1712898316~exp=17129628dc08a057b956eb7bb1fc9a904&w=740);
 }
@@ -802,6 +848,9 @@ video {
 }
 .\[background-image\:url\(https\:\/\/img\.freepik\.com\/free-vector\/abstract-texture-background-with-rose-gold-colours_1048-8234\.jpg\?t\=st\=1712898576\~exp\=1712902176\~hmac\=9995d28492d3d1c7ff56d46563e037413c4815e66e7e485f3e15a6315a3966bb\&w\=740\)\] {
   background-image: url(https://img.freepik.com/free-vector/abstract-texture-background-with-rose-gold-colours_1048-8234.jpg?t=st=1712898576~exp=1712902176~hmac=9995d28492d3d1c7ff56d46563e037413c4815e66e7e485f3e15a6315a3966bb&w=740);
+}
+.\[background-image\:url\(https\:\/\/img\.freepik\.com\/free-vhmac\=9995d28485f3e15a6315a3966bb\&w\=740\)\] {
+  background-image: url(https://img.freepik.com/free-vhmac=9995d28485f3e15a6315a3966bb&w=740);
 }
 .hover\:bg-gray-200:hover {
   --tw-bg-opacity: 1;
