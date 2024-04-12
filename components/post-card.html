@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/build/tailwind.css">
+</head>
+
+<body
+    class="p-4 h-full md:h-screen [background-image:url(../../src/images/background.svg)] bg-gray-300 bg-contain backdrop-blur-sm bg-center">
+    <div class="container flex justify-center items-center w-full h-full ">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+            <!-- English Lang -->
+            <div class="en">
+                <!-- flag -->
+                <img title="language/زبان" class="flag-img pb-5 w-14 h-14 mx-auto" src="../src/images/lang/gb.svg"
+                    alt="en_lang">
+                <!-- card -->
+                <div class="group relative w-72 h-[19rem] cursor-pointer rounded-xl overflow-hidden font-Roboto-light">
+                    <!-- img post /عکس پست -->
+                    <img class="absolute w-full h-full object-cover  brightness-90 group-hover:brightness-[.8] transition-all ease-linear  inset-0 z-0"
+                        src="../src/images/post-card/fantasy-style-clouds-car.avif" alt="fantasy-style-clouds-car">
+                    <!-- Post texts & view & like/  متن های پست و بازدید و لایک ها-->
+                    <div class="absolute w-full h-full  flex flex-col justify-between  z-10">
+                        <div class="text-right p-3 text-xs"><span
+                                class="py-1 px-2 rounded-full bg-yellow-500 text-white font-Roboto-md  ">Category</span>
+                        </div>
+                        <div class="p-4 text-xs text-white">
+                            <!-- texts -->
+                            <div class="flex flex-col mb-3">
+                                <p class="w-3/4 overflow-hidden whitespace-nowrap text-ellipsis">Lorem ipsum dolor,
+                                    AtquePraesentium,</p>
+                                <p class="text-[10px]">• Atque Praesen tium</p>
+                            </div>
+                            <!-- view & like -->
+                            <div class="text-[10px] [&>svg]:bg-white flex gap-4">
+                                <span class="flex items-center gap-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                        class="w-4 h-4">
+                                        <path fill-rule="evenodd"
+                                            d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    764
+                                </span>
+                                <span class="flex items-center gap-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                        class="w-4 h-4">
+                                        <path
+                                            d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
+                                    </svg>
+                                    195
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Pesian Lang -->
+            <div class="fa">
+                <!-- falg -->
+                <img title="language/زبان" class="flag-imgpb-5 w-14 h-14 mx-auto" src="../src/images/lang/ir.svg"
+                    alt="en_lang">
+                <!-- card -->
+                <div dir="rtl"
+                    class="group relative w-72 h-[19rem] cursor-pointer rounded-xl overflow-hidden font-Peyda">
+                    <!-- img post /عکس پست -->
+                    <img class="absolute w-full h-full object-cover  brightness-90 group-hover:brightness-[.8] transition-all ease-linear  inset-0 z-0"
+                        src="../src/images/post-card/fantasy-style-clouds-car.avif" alt="fantasy-style-clouds-car">
+                    <!-- Post texts & view & like/  متن های پست و بازدید و لایک ها-->
+                    <div class="absolute w-full h-full  flex flex-col justify-between  z-10">
+                        <div class="text-right rtl:text-left p-3 text-xs"><span
+                                class="py-1 px-2 rounded-full bg-yellow-500 text-white">دسته بندی</span></div>
+                        <div class="p-4 text-xs text-white">
+                            <!-- texts -->
+                            <div class="flex flex-col mb-3">
+                                <p class="w-3/4 overflow-hidden whitespace-nowrap text-ellipsis">لورم ایپسوم متن ساختگی
+                                    با تولید سادگی نامفهوم از صنعت چاپ</p>
+                                <p class="text-[10px]">• لورم ایپسوم متن ساختگی</p>
+                            </div>
+                            <!-- view & like -->
+                            <div class="text-[10px] [&>svg]:bg-white flex gap-4">
+                                <span class="flex items-center gap-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                        class="w-4 h-4">
+                                        <path fill-rule="evenodd"
+                                            d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    764
+                                </span>
+                                <span class="flex items-center gap-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                        class="w-4 h-4">
+                                        <path
+                                            d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
+                                    </svg>
+                                    195
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
