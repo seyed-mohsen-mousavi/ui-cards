@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 @layer base {
+  *{
+    transition: ease-in .3s;
+  }
   @font-face {
     font-family: "Roboto-light";
     font-style: normal;
